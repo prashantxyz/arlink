@@ -62,7 +62,7 @@ query {
 
 I'd love to continue expanding this specification with the help of anyone interested. Feel free to fork and make a PR with any additions (or fixes)!
 
-### Frontend Project Setup
+### Frontend Project Setup...
 ```
 yarn install
 ```
