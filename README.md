@@ -2,13 +2,18 @@
 <h1 align="center">Project ArLink 🔗</h1>
 <p align="center">A tag specification for linking Arweave wallets to other cryptocurrency wallets</p>
 
-## Why?
+## User-Interface
+
+You can find a UI for ArLink on the [Arweave Permaweb](https://arweave.net/CodqSDWXY5CALyMf9oFLCtTDRYdW4lV9X9O7j-73g1U) or at [arlink.tateberenbaum.com](https://arlink.tateberenbaum.com).
+
+## Why?........
 
 I created ArLink with the intentions of establishing a way to get a user's Ethereum wallet address from the Arweave. By having Arweave users link their accounts to other blockchains, profit-sharing communities can choose to pay out users in other cryptocurrencies not on the *weave*.
 
 ## Tag Specification
 
 See [this](https://viewblock.io/arweave/tx/keJVC7chkdE_NTQpiewwRJP7rom2DnQSNy9L3STNp_k) example:.........................
+=======
 ```json
 Application: "ArLink"
 Chain: "ETH"
@@ -19,7 +24,7 @@ The `Chain` and `Wallet` tags are customizable to whatever the user wants. Becau
 
 ## Querying for Wallets
 
-In order to query for a wallet address from a different blockchain, see the GraphQL examples below:
+In order to query for a wallet address from a different blockchain, see the GraphQL examples below:.......------------
 
 To get all transactions of linked wallets for a given user:
 ```
@@ -35,7 +40,7 @@ query {
         id
       }
     }
-  }
+  }....
 }
 ```
 
@@ -54,13 +59,13 @@ query {
         id
       }
     }
-  }
+  }...
 }
 ```
 
 ## Contributing
 
-I'd love to continue expanding this specification with the help of anyone interested. Feel free to fork and make a PR with any additions (or fixes)!
+I'd love to continue expanding this specification with the help of anyone interested. Feel free to fork and make a PR with any additions (or fixes)!....
 
 ### Frontend Project Setup...
 ```
